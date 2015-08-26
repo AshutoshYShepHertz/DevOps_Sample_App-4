@@ -79,7 +79,7 @@
 									id="emailErr">Email is mandatory</div>
 							</div>
 							<div class="contactForm_tr">
-								<div class="contactForm_td1">Enter Phone no</div>
+								<div class="contactForm_td1">Phone: </div>
 								<div class="contactForm_tdMiddle">:</div>
 								<div class="contactForm_td2">
 									<input name="phone" type="text" id="phone"
@@ -90,6 +90,19 @@
 									id="phoneErr">Phone is mandatory
 								</div>
 							</div>	
+							<div class="contactForm_tr">
+                <div class="contactForm_td1">Company</div>
+                <div class="contactForm_tdMiddle">:</div>
+                <div class="contactForm_td2">
+                                <input name="company" type="text" id="company"
+                                                class="Personal-input" maxlength="50" placeholder="Enter Company Name "/>
+                </div>
+                <div class="contactForm_td2"
+                                style="color: red; padding-left: 90px; display: none;"
+                                id="coNameErr">Company is mandatory
+                </div>
+</div>
+
 							</fieldset>
 						<fieldset>
 							<legend>What do you like about this Page</legend>
